@@ -8,22 +8,22 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	s = [[LuStepper alloc] initWithFrame:CGRectMake(50, 50, 200, 100)];
+    [self.view addSubview:s];
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setFrame:CGRectMake(100, 100, 88, 100)];
+    [button setTitle:@"Get value" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonDidTap:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)buttonDidTap:(id)sender {
+    NSLog(@"value: %d", s.value);
 }
-
 @end

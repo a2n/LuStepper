@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LuStepper.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController {
+    LuStepper * s;
+}
 @end

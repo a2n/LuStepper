@@ -22,6 +22,7 @@
 		B7B9A37919C01F6C002A6207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B9A35819C01F6C002A6207 /* UIKit.framework */; };
 		B7B9A38119C01F6C002A6207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7B9A37F19C01F6C002A6207 /* InfoPlist.strings */; };
 		B7B9A38319C01F6C002A6207 /* FooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9A38219C01F6C002A6207 /* FooTests.m */; };
+		B7B9A3A319C024E9002A6207 /* LuStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9A3A219C024E9002A6207 /* LuStepper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B7B9A35119C01F6C002A6207 /* Foo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B9A35119C01F6C002A6207 /* LuStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B9A35419C01F6C002A6207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7B9A35619C01F6C002A6207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B7B9A35819C01F6C002A6207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B7B9A35C19C01F6C002A6207 /* Foo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foo-Info.plist"; sourceTree = "<group>"; };
+		B7B9A35C19C01F6C002A6207 /* LuStepper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuStepper-Info.plist"; sourceTree = "<group>"; };
 		B7B9A35E19C01F6C002A6207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7B9A36019C01F6C002A6207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7B9A36219C01F6C002A6207 /* Foo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foo-Prefix.pch"; sourceTree = "<group>"; };
+		B7B9A36219C01F6C002A6207 /* LuStepper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuStepper-Prefix.pch"; sourceTree = "<group>"; };
 		B7B9A36319C01F6C002A6207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7B9A36419C01F6C002A6207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B7B9A36719C01F6C002A6207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -50,11 +51,13 @@
 		B7B9A36C19C01F6C002A6207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B7B9A36D19C01F6C002A6207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B7B9A36F19C01F6C002A6207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B7B9A37519C01F6C002A6207 /* FooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B9A37519C01F6C002A6207 /* LuStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B9A37619C01F6C002A6207 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B7B9A37E19C01F6C002A6207 /* FooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FooTests-Info.plist"; sourceTree = "<group>"; };
+		B7B9A37E19C01F6C002A6207 /* LuStepperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuStepperTests-Info.plist"; sourceTree = "<group>"; };
 		B7B9A38019C01F6C002A6207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7B9A38219C01F6C002A6207 /* FooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooTests.m; sourceTree = "<group>"; };
+		B7B9A3A119C024E9002A6207 /* LuStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuStepper.h; sourceTree = "<group>"; };
+		B7B9A3A219C024E9002A6207 /* LuStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuStepper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +87,8 @@
 		B7B9A34819C01F6C002A6207 = {
 			isa = PBXGroup;
 			children = (
-				B7B9A35A19C01F6C002A6207 /* Foo */,
-				B7B9A37C19C01F6C002A6207 /* FooTests */,
+				B7B9A35A19C01F6C002A6207 /* LuStepper */,
+				B7B9A37C19C01F6C002A6207 /* LuStepperTests */,
 				B7B9A35319C01F6C002A6207 /* Frameworks */,
 				B7B9A35219C01F6C002A6207 /* Products */,
 			);
@@ -94,8 +97,8 @@
 		B7B9A35219C01F6C002A6207 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7B9A35119C01F6C002A6207 /* Foo.app */,
-				B7B9A37519C01F6C002A6207 /* FooTests.xctest */,
+				B7B9A35119C01F6C002A6207 /* LuStepper.app */,
+				B7B9A37519C01F6C002A6207 /* LuStepperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,45 +114,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B7B9A35A19C01F6C002A6207 /* Foo */ = {
+		B7B9A35A19C01F6C002A6207 /* LuStepper */ = {
 			isa = PBXGroup;
 			children = (
+				B7B9A3A119C024E9002A6207 /* LuStepper.h */,
+				B7B9A3A219C024E9002A6207 /* LuStepper.m */,
 				B7B9A36319C01F6C002A6207 /* AppDelegate.h */,
 				B7B9A36419C01F6C002A6207 /* AppDelegate.m */,
-				B7B9A36619C01F6C002A6207 /* Main_iPhone.storyboard */,
+				B7B9A36F19C01F6C002A6207 /* Images.xcassets */,
 				B7B9A36919C01F6C002A6207 /* Main_iPad.storyboard */,
+				B7B9A36619C01F6C002A6207 /* Main_iPhone.storyboard */,
+				B7B9A35B19C01F6C002A6207 /* Supporting Files */,
 				B7B9A36C19C01F6C002A6207 /* ViewController.h */,
 				B7B9A36D19C01F6C002A6207 /* ViewController.m */,
-				B7B9A36F19C01F6C002A6207 /* Images.xcassets */,
-				B7B9A35B19C01F6C002A6207 /* Supporting Files */,
 			);
+			name = LuStepper;
 			path = Foo;
 			sourceTree = "<group>";
 		};
 		B7B9A35B19C01F6C002A6207 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7B9A35C19C01F6C002A6207 /* Foo-Info.plist */,
+				B7B9A35C19C01F6C002A6207 /* LuStepper-Info.plist */,
 				B7B9A35D19C01F6C002A6207 /* InfoPlist.strings */,
 				B7B9A36019C01F6C002A6207 /* main.m */,
-				B7B9A36219C01F6C002A6207 /* Foo-Prefix.pch */,
+				B7B9A36219C01F6C002A6207 /* LuStepper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B7B9A37C19C01F6C002A6207 /* FooTests */ = {
+		B7B9A37C19C01F6C002A6207 /* LuStepperTests */ = {
 			isa = PBXGroup;
 			children = (
 				B7B9A38219C01F6C002A6207 /* FooTests.m */,
 				B7B9A37D19C01F6C002A6207 /* Supporting Files */,
 			);
+			name = LuStepperTests;
 			path = FooTests;
 			sourceTree = "<group>";
 		};
 		B7B9A37D19C01F6C002A6207 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7B9A37E19C01F6C002A6207 /* FooTests-Info.plist */,
+				B7B9A37E19C01F6C002A6207 /* LuStepperTests-Info.plist */,
 				B7B9A37F19C01F6C002A6207 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -158,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7B9A35019C01F6C002A6207 /* Foo */ = {
+		B7B9A35019C01F6C002A6207 /* LuStepper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7B9A38619C01F6C002A6207 /* Build configuration list for PBXNativeTarget "Foo" */;
+			buildConfigurationList = B7B9A38619C01F6C002A6207 /* Build configuration list for PBXNativeTarget "LuStepper" */;
 			buildPhases = (
 				B7B9A34D19C01F6C002A6207 /* Sources */,
 				B7B9A34E19C01F6C002A6207 /* Frameworks */,
@@ -170,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = Foo;
+			name = LuStepper;
 			productName = Foo;
-			productReference = B7B9A35119C01F6C002A6207 /* Foo.app */;
+			productReference = B7B9A35119C01F6C002A6207 /* LuStepper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B7B9A37419C01F6C002A6207 /* FooTests */ = {
+		B7B9A37419C01F6C002A6207 /* LuStepperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7B9A38919C01F6C002A6207 /* Build configuration list for PBXNativeTarget "FooTests" */;
+			buildConfigurationList = B7B9A38919C01F6C002A6207 /* Build configuration list for PBXNativeTarget "LuStepperTests" */;
 			buildPhases = (
 				B7B9A37119C01F6C002A6207 /* Sources */,
 				B7B9A37219C01F6C002A6207 /* Frameworks */,
@@ -188,9 +195,9 @@
 			dependencies = (
 				B7B9A37B19C01F6C002A6207 /* PBXTargetDependency */,
 			);
-			name = FooTests;
+			name = LuStepperTests;
 			productName = FooTests;
-			productReference = B7B9A37519C01F6C002A6207 /* FooTests.xctest */;
+			productReference = B7B9A37519C01F6C002A6207 /* LuStepperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7B9A34C19C01F6C002A6207 /* Build configuration list for PBXProject "Foo" */;
+			buildConfigurationList = B7B9A34C19C01F6C002A6207 /* Build configuration list for PBXProject "LuStepper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7B9A35019C01F6C002A6207 /* Foo */,
-				B7B9A37419C01F6C002A6207 /* FooTests */,
+				B7B9A35019C01F6C002A6207 /* LuStepper */,
+				B7B9A37419C01F6C002A6207 /* LuStepperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +263,7 @@
 				B7B9A36E19C01F6C002A6207 /* ViewController.m in Sources */,
 				B7B9A36519C01F6C002A6207 /* AppDelegate.m in Sources */,
 				B7B9A36119C01F6C002A6207 /* main.m in Sources */,
+				B7B9A3A319C024E9002A6207 /* LuStepper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		B7B9A37B19C01F6C002A6207 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7B9A35019C01F6C002A6207 /* Foo */;
+			target = B7B9A35019C01F6C002A6207 /* LuStepper */;
 			targetProxy = B7B9A37A19C01F6C002A6207 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,9 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Foo/Foo-Prefix.pch";
-				INFOPLIST_FILE = "Foo/Foo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Foo/LuStepper-Prefix.pch";
+				INFOPLIST_FILE = "Foo/LuStepper-Info.plist";
+				PRODUCT_NAME = LuStepper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,9 +412,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Foo/Foo-Prefix.pch";
-				INFOPLIST_FILE = "Foo/Foo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Foo/LuStepper-Prefix.pch";
+				INFOPLIST_FILE = "Foo/LuStepper-Info.plist";
+				PRODUCT_NAME = LuStepper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,8 +434,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FooTests/FooTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FooTests/LuStepperTests-Info.plist";
+				PRODUCT_NAME = LuStepperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,8 +452,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Foo/Foo-Prefix.pch";
-				INFOPLIST_FILE = "FooTests/FooTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FooTests/LuStepperTests-Info.plist";
+				PRODUCT_NAME = LuStepperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7B9A34C19C01F6C002A6207 /* Build configuration list for PBXProject "Foo" */ = {
+		B7B9A34C19C01F6C002A6207 /* Build configuration list for PBXProject "LuStepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B9A38419C01F6C002A6207 /* Debug */,
@@ -463,21 +471,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7B9A38619C01F6C002A6207 /* Build configuration list for PBXNativeTarget "Foo" */ = {
+		B7B9A38619C01F6C002A6207 /* Build configuration list for PBXNativeTarget "LuStepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B9A38719C01F6C002A6207 /* Debug */,
 				B7B9A38819C01F6C002A6207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B7B9A38919C01F6C002A6207 /* Build configuration list for PBXNativeTarget "FooTests" */ = {
+		B7B9A38919C01F6C002A6207 /* Build configuration list for PBXNativeTarget "LuStepperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7B9A38A19C01F6C002A6207 /* Debug */,
 				B7B9A38B19C01F6C002A6207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

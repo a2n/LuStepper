@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7B9A35019C01F6C002A6207"
-               BuildableName = "Foo.app"
-               BlueprintName = "Foo"
-               ReferencedContainer = "container:Foo.xcodeproj">
+               BuildableName = "LuStepper.app"
+               BlueprintName = "LuStepper"
+               ReferencedContainer = "container:LuStepper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7B9A37419C01F6C002A6207"
-               BuildableName = "FooTests.xctest"
-               BlueprintName = "FooTests"
-               ReferencedContainer = "container:Foo.xcodeproj">
+               BuildableName = "LuStepperTests.xctest"
+               BlueprintName = "LuStepperTests"
+               ReferencedContainer = "container:LuStepper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7B9A35019C01F6C002A6207"
-            BuildableName = "Foo.app"
-            BlueprintName = "Foo"
-            ReferencedContainer = "container:Foo.xcodeproj">
+            BuildableName = "LuStepper.app"
+            BlueprintName = "LuStepper"
+            ReferencedContainer = "container:LuStepper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7B9A35019C01F6C002A6207"
-            BuildableName = "Foo.app"
-            BlueprintName = "Foo"
-            ReferencedContainer = "container:Foo.xcodeproj">
+            BuildableName = "LuStepper.app"
+            BlueprintName = "LuStepper"
+            ReferencedContainer = "container:LuStepper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7B9A35019C01F6C002A6207"
-            BuildableName = "Foo.app"
-            BlueprintName = "Foo"
-            ReferencedContainer = "container:Foo.xcodeproj">
+            BuildableName = "LuStepper.app"
+            BlueprintName = "LuStepper"
+            ReferencedContainer = "container:LuStepper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
